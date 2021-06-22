@@ -125,7 +125,14 @@ form {
   top:100px;
   width:600px;
   background-color:white;
-  display:none; 
+  display:none;
+}
+#account{
+  position:fixed;
+  top:100px;
+  width:600px;
+  background-color:white;
+  display:none;
 }
 
 /* media query */
@@ -133,4 +140,7 @@ form {
 section:nth-child(2) div {
   flex:1;
 }
-} /* end query*/
+@media screen and (min-width:768px){
+
+}
+/* end query*/

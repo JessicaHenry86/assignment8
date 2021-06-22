@@ -25,7 +25,7 @@
         <div>
           <h2>Welcome</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button type="button" name="button">open account</button>
+          <button type="button" name="button"onclick="document.getElementById('account').style.display='block'">open account</button>
         </div>
     </section>
 
@@ -37,11 +37,11 @@
 
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button">Learn More</button>
+        <button type="button"onclick="document.getElementById('savings').style.display='block'">Learn More</button>
 
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button">Learn More</button>
+        <button type="button"onclick="document.getElementById('savings').style.display='block'">Learn More</button>
 
     </main>
 
@@ -72,8 +72,14 @@
     <div id="savings">
       <h3>Savings Account</h3>
         <p>A savings account is a bank account at a retail bank whose features include the requirements that only a limited number of withdrawals can take place, it does not have cheque facilities and usually do not have a linked debit card facility, it has limited transfer facilities and cannot be overdrawn.</p>
-<button type="button" name="button" onclick="document.getElementById('savings').style.display='none'">Close</button>
+<button type="button" name="button" onclick="document.getElementById('savings').style.display='none'"> Close</button>
       </div>
+
+      <div id="account">
+      <h1>New Account</h1>
+      <button type="button" name="button"onclick="document.getElementById('account').style.display='none'">Close</button>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
   </body>
 </html>
